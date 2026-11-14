@@ -1,3 +1,13 @@
+## Integrantes
+
+| Nome | RM |
+| --- | --- |
+| Gustavo Viega Lopes Martins | RM555885 |
+| Gustavo Yuji Osugi | RM555034 |
+| Kaio Drago Lima Souza | RM556095 |
+| Otávio Santos de Lima Ferrão | RM556452 |
+| Vitor Rivas Cardoso | RM556404 |
+
 # SmartRoad Preditiva
 
 Modelo Preditivo de **Inteligência Artificial & Machine Learning** da CitizenTech do nosso app **SmartRoad** presente em https://github.com/MAJE-Dev/SmartRoad
@@ -17,16 +27,6 @@ O modelo responde a uma pergunta que o app ainda não consegue responder ao mora
 | **Link do repositório** | https://github.com/MAJE-Dev/SmartRoad-Preditiva (ML) · https://github.com/MAJE-Dev/SmartRoad (app) |
 | **Indicador de impacto** | Tempo entre o registro e a conclusão do reparo. Aqui ele é medido como a porcentagem de pedidos finalizados em até 30 dias, por tipo de serviço e por subprefeitura. |
 | **ODS conectados** | ODS 11 (cidades e comunidades sustentáveis), ODS 9 (infraestrutura) e ODS 10 (redução das desigualdades: o tempo de espera muda conforme a região). |
-
-## Integrantes
-
-| Nome | RM |
-| --- | --- |
-| Gustavo Viega Lopes Martins | RM555885 |
-| Gustavo Yuji Osugi | RM555034 |
-| Kaio Drago Lima Souza | RM556095 |
-| Otávio Santos de Lima Ferrão | RM556452 |
-| Vitor Rivas Cardoso | RM556404 |
 
 ## Resumo do trabalho
 
