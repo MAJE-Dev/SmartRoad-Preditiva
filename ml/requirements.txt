@@ -1,0 +1,8 @@
+# Bibliotecas usadas em ml/smartroad_preditiva.ipynb e ml/dados/preparar_dados.py
+# Testado com Python 3.13 e: pandas 3.0.5, numpy 2.5.3, scikit-learn 1.9.1, xgboost 3.4.1, matplotlib 3.11.2
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+matplotlib>=3.8
+notebook>=7.0
