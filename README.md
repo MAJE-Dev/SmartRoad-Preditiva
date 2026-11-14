@@ -1,3 +1,5 @@
+Modelo Preditivo baseado no nosso app SmartRoad: https://github.com/MAJE-Dev/SmartRoad
+
 ## Integrantes
 
 | Nome | RM |
@@ -9,8 +11,6 @@
 | Vitor Rivas Cardoso | RM556404 |
 
 # SmartRoad Preditiva
-
-Modelo Preditivo de **Inteligência Artificial & Machine Learning** da CitizenTech do nosso app **SmartRoad** presente em https://github.com/MAJE-Dev/SmartRoad
 
 O modelo responde a uma pergunta que o app ainda não consegue responder ao morador: **"a ocorrência que acabei de registrar vai demorar mais de 30 dias para ser finalizada?"**
 
