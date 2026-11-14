@@ -1,6 +1,6 @@
 # SmartRoad Preditiva
 
-Parte de **Inteligência Artificial & Machine Learning** da CitizenTech **SmartRoad** (FIAP · Global Solution 2026.2 · Engenharia de Software).
+Modelo Preditivo de **Inteligência Artificial & Machine Learning** da CitizenTech do nosso app **SmartRoad** presente em https://github.com/MAJE-Dev/SmartRoad
 
 O modelo responde a uma pergunta que o app ainda não consegue responder ao morador: **"a ocorrência que acabei de registrar vai demorar mais de 30 dias para ser finalizada?"**
 
