@@ -28,6 +28,16 @@ O modelo responde a uma pergunta que o app ainda não consegue responder ao mora
 | **Indicador de impacto** | Tempo entre o registro e a conclusão do reparo. Aqui ele é medido como a porcentagem de pedidos finalizados em até 30 dias, por tipo de serviço e por subprefeitura. |
 | **ODS conectados** | ODS 11 (cidades e comunidades sustentáveis), ODS 9 (infraestrutura) e ODS 10 (redução das desigualdades: o tempo de espera muda conforme a região). |
 
+## ODS e metas
+
+| ODS | Meta | Como o projeto contribui |
+| --- | --- | --- |
+| **ODS 9** (indústria, inovação e infraestrutura) | 9.1: infraestrutura de qualidade, confiável e resiliente | O modelo prevê quais pedidos de reparo de buraco, bueiro e calçada tendem a passar de 30 dias. Isso mostra onde a manutenção da infraestrutura viária está atrasando e ajuda a Prefeitura a priorizar esses casos. |
+| **ODS 11** (cidades e comunidades sustentáveis) | 11.2: sistemas de transporte seguros e acessíveis. 11.3: urbanização inclusiva e gestão participativa | Ruas e calçadas em bom estado dão mais segurança a quem anda, dirige ou pedala, em especial idosos e pessoas com deficiência. Ao avisar o cidadão, já no registro, a chance de demora, o app torna o acompanhamento do reparo mais transparente e incentiva a participação. |
+| **ODS 10** (redução das desigualdades) | 10.2: inclusão social, econômica e política de todos | Nos dados analisados, a taxa de demora foi de 22% em Perus e Ermelino Matarazzo e de 50% na Sé. Tornar essa diferença visível permite que moradores e associações de bairro cobrem um atendimento igual entre as regiões. |
+
+O indicador de impacto (porcentagem de pedidos finalizados em até 30 dias, por tipo de serviço e por subprefeitura) é o que acompanha essas contribuições ao longo do tempo.
+
 ## Resumo do trabalho
 
 | | |
