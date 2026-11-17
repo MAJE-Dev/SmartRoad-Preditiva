@@ -2,12 +2,13 @@
 
 Fonte: Portal de Dados Abertos da Prefeitura de São Paulo - "Dados do SP156 - Solicitações"
        https://dados.prefeitura.sp.gov.br/dataset/dados-do-sp156
-Período: solicitações abertas de 01/07/2025 a 30/06/2026 (4 arquivos trimestrais).
+Período: solicitações abertas de 01/07/2024 a 30/06/2026 (8 arquivos trimestrais).
+       (O arquivo do 2º tri de 2024 não traz a coluna "Serviço", por isso a série começa no 3º tri de 2024 e fica contínua).
 
 O que o script faz:
-  1. baixa os 4 arquivos trimestrais (cerca de 430 MB) para ml/dados/brutos/ (pasta fora do Git);
+  1. baixa os 8 arquivos trimestrais (cerca de 900 MB) para ml/dados/brutos/ (pasta fora do Git);
   2. mantém só os 9 serviços que correspondem aos tipos de ocorrência do app SmartRoad;
-  3. mantém só as colunas usadas e grava ml/dados/sp156_zeladoria_jul2025_jun2026.csv.gz.
+  3. mantém só as colunas usadas e grava ml/dados/sp156_zeladoria_jul2024_jun2026.csv.gz.
 
 Nenhuma linha é alterada ou inventada: é só filtro de linhas e de colunas.
 A limpeza de verdade (datas, categorias, alvo) fica no notebook.
@@ -23,10 +24,14 @@ import pandas as pd
 
 PASTA = Path(__file__).resolve().parent
 BRUTOS = PASTA / "brutos"
-SAIDA = PASTA / "sp156_zeladoria_jul2025_jun2026.csv.gz"
+SAIDA = PASTA / "sp156_zeladoria_jul2024_jun2026.csv.gz"
 
 BASE = "https://dados.prefeitura.sp.gov.br/dataset/0aecfa2b-aa3a-40d4-8183-0d4351b7fd0a/resource/"
 ARQUIVOS = {
+    "arquivo-final-3-trim-24.csv": "3c12fe0a-ec4f-4a20-a987-dd177330f4ce/download/arquivo-final-3-trim.-2024.csv",
+    "arquivo-final-4-trim-24.csv": "ed357147-f15c-4bf0-ad15-edc963a9f130/download/arquivo-final-4-trim.-2024.csv",
+    "arquivo-final-1-trim-25.csv": "7c5aeb58-2cad-40ba-9e9e-af1c17cc5070/download/arquivo-final-1-trim-25.csv",
+    "arquivo-final-2-trim-25.csv": "f5df7f4a-d614-4f85-b4a0-263ec9370cd9/download/arquivo-final-2-trim-25.csv",
     "arquivo-final-3-trim-25.csv": "3b1d2648-d586-40c8-819c-24fbb8005343/download/arquivo-final-3-trim-25.csv",
     "arquivo-final-4-trim-25.csv": "d3a98097-8128-45d4-b8fe-21874b81c971/download/arquivo-final-4-trim-25.csv",
     "arquivo-final-1-trim-26.csv": "75105148-4efd-48f3-8ae0-fc6c2adf7060/download/arquivo-final-1-trim-26.csv",
